@@ -1,3 +1,5 @@
 chmod 400 /root/certs/key.key
 # https://www.linode.com/docs/security/ssl/create-a-self-signed-tls-certificate/
+# http://jasonwilder.com/blog/2014/03/25/automated-nginx-reverse-proxy-for-docker/
+# https://github.com/jwilder/nginx-proxy
 
