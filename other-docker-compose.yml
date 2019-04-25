@@ -1,0 +1,14 @@
+# Surveillance Backend
+
+version: "3"
+services:
+  my-ui:
+    image: mcr.microsoft.com/dotnet/core/samples:aspnetapp
+    ports:
+      - "8100:80"
+    volumes:
+      - "./src:/usr/app/src"
+networks:
+  default:
+    external:
+      name: nginx_apps
