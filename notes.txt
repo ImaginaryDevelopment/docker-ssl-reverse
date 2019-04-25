@@ -1,0 +1,3 @@
+chmod 400 /root/certs/key.key
+# https://www.linode.com/docs/security/ssl/create-a-self-signed-tls-certificate/
+

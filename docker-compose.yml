@@ -1,0 +1,10 @@
+version: '3.1'
+services:
+  my-proxy:
+    networks:
+      - apps
+    build: .
+    ports:
+      - "443:443"
+networks:
+  apps:
