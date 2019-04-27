@@ -1,1 +1,1 @@
-docker exec -ti bf bash
+docker exec -ti $1 bash

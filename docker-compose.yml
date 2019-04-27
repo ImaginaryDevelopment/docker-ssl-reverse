@@ -4,6 +4,7 @@ services:
     networks:
       - apps
     build: .
+    image: rev/nginx:v2
     ports:
       - "443:443"
 networks:
